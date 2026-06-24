@@ -1,0 +1,39 @@
+name: bucketvault
+description: A personal document vault organized into buckets.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Database
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+  # File picking & camera
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+
+  # Secure local storage (for sensitive prefs / biometric state)
+  flutter_secure_storage: ^9.2.2
+
+  # Biometric lock
+  local_auth: ^2.3.0
+
+  # File utilities
+  path_provider: ^2.1.4
+
+  # State management (simple, no extra setup)
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
